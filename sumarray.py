@@ -1,0 +1,10 @@
+numArray = map(int, raw_input().split()) # Get the input
+
+
+sum_integer = 0
+# write your logic to add these 4 numbers here
+for number in numArray:
+    sum_integer += number
+
+
+print sum_integer # Print the sum
